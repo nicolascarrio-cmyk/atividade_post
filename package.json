@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx src/app.ts",
+    "dev": "tsx watch projeto1-mensagem/src/app.ts",
+    "dev2": "tsx watch projeto2 -mensagem/src/app.ts",
     "build": "tsc",
     "start": "node dist/app.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seu-usurario/ambient-nodejs.git"
+    "url": "git+https://github.com/nicolascarrio-cmyk/ambient-nodejs.git"
   },
   "keywords": [],
   "author": "",
